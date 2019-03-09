@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Gospodarenjem Otpadom</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+        <div class="topBlue">
+                <div class="header-content-inner">
+                    <img src="gotpad.logo.png">
+                    <h1>Gospodarenjem otpadom</h1>
+                </div>
+        
+
+
+<div class="tabContainer">
+    <div class="buttonContainer">
+        <button onclick="showPanel(0,'#f44336')">Home</button>
+        <button onclick="showPanel(1,'#4caf50')">Novosti</button>
+        <button onclick="showPanel(2,'#2196f3')">Gospodarenje otpadom</button>
+        <button onclick="showPanel(3,'#ff5722')">O projektu</button>
+        <button onclick="showPanel(4,'#9933ff')">Raspored odvoza i lokacije odvoza</button>
+        <button onclick="showPanel(5,'#ff884d')">Publikacije</button>
+        <button onclick="showPanel(6,'#006bb3')">Kontakt</button>
+        
+    </div>
+    
+</div>
+</div>
+<style>
+
+        p {
+        font-size: 38px;
+        font-family: Arial;
+        margin: 7%;
+         }
+         </style>
+
+<script src="myScript.js"></script>
+<body> <!--body bgcolor="#ebfaeb"  // blaža zelena boja pozadine za čitanje -->
+    <div class="wrapper">
+    <img src="trava.png" alt="">
+    </div>
+
+    <p id="size">
+        
+            Gospodarenje otpadom vrlo je složena djelatnost koja zahvaća sve grane gospodarstva, proizvodnje i potrošnje, a sadrži čitav niz postupaka i tehnologija od kojih se velik dio primjenjuje u različitim oblicima.
+            <br></br>
+            Obrada otpada<br></br>
+            Mehaničko biološka obrada
+            Cilj mehaničko bioloških obrada je smanjiti volumen obrađenom komunalnom otpadu,
+            kroz izdvajanje pojedinih vrsta otpada koje se mogu sirovinski iskoristiti.
+            <br></br>
+            Kompostiranje<br></br>
+            Kompostiranje je prirodan proces razgradnje biomase. Priroda sama reciklira svoj otpad u kružnom sustavu izmjene tvari i energije. Procesom kompostiranja nastaje visokovrijedan kompost (humus) te CO2 kao poslijedica metabolizma razgrađivača. Više od trećine ukupnog otpada koji nastaje u domaćinstvima je biootpad. Njegovim izdvajanjem tj. kompostiranjem, ne samo smanjujemo količinu otpada na deponija najmanje za trećinu, već i ostali reciklabilni otpad čuvamo od onečišćenja i neugodnih mirisa koji bi mogli nastati miješanjem. Također kompostiranjem čuvamo atmosferu od stakleničkih plinova, jer se na deponijima biootpad anaerobno razgrađuje, tj. bez prisustva kisika što uz neugodan miris predstavlja i zapaljivi plin metan koji je 26 puta jači staklenički plin od Co2.
+            <br></br>
+            Fermentacija<br></br>
+            Fermentacija je anaerobna biološka obrada otpada i češće se primjenjuje u obradi muljeva, pri čemu se stvara bioplin kao glavni produkt fermentacije.
+            <br></br>
+            Termička obrada<br></br>
+            Osnovne vrste termičke obrade otpada su: spaljivanje (suspaljivanje) i piroliza. Prilikom termičke obrade otpada elementarne tvari se ne mogu uništiti. U dimnim plinovima nakon izgaranja one međusobno reagiraju pa nastaju novi spojevi, među kojima najpoznatiji otrovi današnjice: dioksini i furani. Spaljivanje ne pridonosi održivom razvoju, jer je dio linearne ekonomije, tj. ne omogućava sljedećim generacijama korištenje resursa. Ono što se može ponovno koristiti, reciklirati ili kompostirati treba ostaviti i za buduće generacije i nema opravdavanja za spaljivanje. Ostatni dio koji se ne može iskoristiti niti reciklirati može se pretvoriti u sintetički pijesak, oporabiti pirolizom, što je daleko prihvatljivije od spaljivanja u spalionicama i cementarama.
+            <br></br><br></br>
+        </p>
+        <div class="bottomBlue">
+                
+            <a  href=" http://nasavoda.hr" rel="footfont">Kontakt</a>
+
+            <input type="image" onClick="FontBig()" src="povecaj.png" width="150px" height="100px">
+            <script>
+            function FontBig()
+            {
+                var i = 0;
+                i++;
+                if((i%2)==0){
+                    Small();
+                }
+                else {
+                    Big()
+                }
+                function Big(){
+                document.getElementById('size').style.fontSize='68px'
+                }
+                function Small(){
+                    document.getElementById('size').style.fontSize='38px'
+                }
+            }
+            
+            </script>       
+     </body>
+        </div>
+</body>
+
+</html>

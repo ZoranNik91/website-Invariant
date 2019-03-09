@@ -1,0 +1,99 @@
+
+.topBlue {
+    position: relative;
+	top:0px;
+    left:0px;
+    height:190px;
+	width:100%;
+	text-align: center;
+	background:#333;
+    padding:8px;
+    clear: both;
+   
+}
+.bottomBlue {
+    width: 100%;
+    height:120px;
+    position: relative;
+	bottom:0px;
+	left:0px;
+	color:#CCC;
+	background:#333;
+	margin-top: -100px;
+    text-align: center;
+    clear: both;
+    vertical-align: middle;
+
+}
+h1 {
+
+font-family: Arial;
+text-shadow: -1px 0 silver, 0 1px silver, 1px 0 silver, 0 -1px silver;
+color:white;
+font-size:75px;
+padding: 10px;
+height: auto;
+margin:auto;
+vertical-align: middle;
+margin-bottom: 35px;
+}
+.header-content-inner img {
+    max-width: 99%;
+    max-height: 99%;
+    margin-right: 50px;
+    float: right;   
+  }
+.tabContainer{
+    width: 100%;
+    height: 350px;
+    
+}
+.tabContainer .buttonContainer{
+    height: 15%;
+    
+}
+.tabContainer .buttonContainer button{
+    min-width: 13.5%;
+    height: 100%;
+    float: left;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #eee;
+    margin: 1px;
+}
+.tabContainer .buttonContainer button:hover{
+    background-color: #d7d4d4;
+}
+
+#wrapper {
+    width: 500px;
+    margin: 0 auto;
+    
+}
+/*
+.size {
+    font-family: Arial;
+    text-align: left;
+    font-size: 38px;
+    margin: 7%;
+
+} */
+
+a:link{
+    font-size: Arial;
+    color: #339933;
+    text-decoration: none;
+    font-size: 39px;
+}
+a:hover{
+    font-size: Arial;
+    color: #CCC;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+
